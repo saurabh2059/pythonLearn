@@ -44,11 +44,14 @@ print(a)'''
 
 # dis-> #value , key
 
-dis = {
+'''dis = {
     1:"saurabh",
     2:"hello",
     "hello":"main"
 }
+
+print(dis.items())
+'''
 
 '''print(dis)
 
@@ -56,8 +59,12 @@ print(dis["hello"])
 print(dis[1])'''
 
 
-for index in dis:
+'''for index in dis:
     print(f" {index} holds data : {dis[index]} ")
+
+for keys , values in dis.items():
+    print(f"keys : {keys} , items value: {values}")'''
+
 
 
 
