@@ -1,0 +1,27 @@
+saurabh
+
+---> student
+---> teacher class marks
+
+
+blog
+-->
+title 
+desc
+image
+
+
+category
+-->
+desc
+image
+time
+title
+
+
+reviews
+-->
+name
+detail
+
+auth

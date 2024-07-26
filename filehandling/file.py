@@ -28,10 +28,14 @@ with open("example.txt", "a") as file3:
     with open("text.txt","r") as file4:
          content = file4.read()
          file3.write(f"\t {content}")
+         
 
 
 with open("text.txt", "r")as file9:
-    content2 = file9.readlines()
+    content2 = file9.readline()
+
+
+print(content2)
 
 
 
