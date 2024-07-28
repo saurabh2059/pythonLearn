@@ -1,0 +1,4 @@
+python3 -m venv env        -- to install environment
+
+source env/bin/activate    -  to activate 
+pip install django          -- to install django
