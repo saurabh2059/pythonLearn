@@ -1,4 +1,18 @@
 python3 -m venv env        -- to install environment
 
 source env/bin/activate    -  to activate 
+
 pip install django          -- to install django
+
+django-admin startproject project1 -- create project
+
+python3 manage.py runserver
+
+
+project1 % python3 manage.py startapp blog  -- to start app blog
+
+python3 manage.py makemigrations -- to migrate migration file
+python3 manage.py migrate
+superuser 
+saurabh
+saurabh12
