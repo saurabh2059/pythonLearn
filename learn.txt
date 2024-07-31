@@ -16,3 +16,5 @@ python3 manage.py migrate
 superuser 
 saurabh
 saurabh12
+
+python3 manage.py create superuser
