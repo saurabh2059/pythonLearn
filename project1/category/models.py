@@ -5,7 +5,8 @@ from django.db import models
 class Category(models.Model):
     title = models.CharField(max_length  = 50)
     description = models.TextField()
+    username = models.CharField(max_length=50 , null=True)
 
     def __str__(self):
-        return f"{self.title} {self.description}"
+        return f"{self.title} by  .....{self.username}"
     

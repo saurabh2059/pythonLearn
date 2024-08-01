@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'category',
     'slider',
     'review',
-    # 'auth',  
+    'contact',  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

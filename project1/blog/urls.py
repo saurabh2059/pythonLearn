@@ -6,3 +6,5 @@ urlpatterns = [
 ]
 
 
+
+# path("blog/",views.BlogPage)
