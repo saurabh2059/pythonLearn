@@ -13,14 +13,16 @@
 {% include "header.html" %}
 
 
-
+{% for blogs in blogs%}
 <div class="">
 
-<h1>saurabh</h1>
-<p> this is shishir banjade</p>
-<img src="" alt="">
+<h1>{{blogs.username}}</h1>
+<h2>{{blogs.title}}</h2>
+<p> {{blogs.description}}</p>
+<img src={{blogs.img.url}}  height="180" width="180" alt="">
 
 </div>
+{% endfor %}
 
 
 {% include "footer.html" %}

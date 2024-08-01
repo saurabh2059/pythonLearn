@@ -8,3 +8,5 @@ def BlogPage(request):
 def SingleBlog(request, pk):
     blogs = Blog.objects.filter(pk=pk)
     return render(request,"single.html",{'blogs':blogs})
+
+

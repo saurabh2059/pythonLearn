@@ -11,6 +11,36 @@
 <body style=" background-color:white;">
 
 {% include "header.html" %}
+
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    {% for a in blogs%}
+    <div class="carousel-item active">
+      <img src={{a.img.url}} width="500" height="500" class="d-block w-100" alt="...">
+    </div>
+    {% endfor%}
+  </div>
+  
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
    
     <h1>hello</h1>
         <p>
@@ -20,6 +50,8 @@
                 {% for a in blogs %}
                 <li>{{a.title}} <p> {{a.description}}</p> 
                 <img  style=" width: 200px; height: 200px;" src={{a.img.url}} alt="">
+
+                <a href="{{a.id}}"> details</a>
                 </li>
                 
                 
